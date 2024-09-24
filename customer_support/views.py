@@ -3,7 +3,7 @@ from django.shortcuts import render
 # Create your views here.
 from rest_framework.views import APIView
 from rest_framework.response import Response
-from .chatbot import process_query
+#from .chatbot import process_query
 
 class ChatbotView(APIView):
     def post(self, request):
